@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>Clínica Médica Arapuá</title>
+	<meta charset="utf-8"/>
+	<meta name="author" content="Luiz Joaquim Aderaldo Amichi"/>
+	<meta name="description" content="Procurando uma clínica médica em Maringá? A Clínica Médica Arapuá é a melhor opção para você. Conheça agora nossa clínica médica."/>
+	<meta name="keywords" content="Cirurgião geral, clínico geral, Maringá, médico, psiquiatra, Unimed."/>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+	<meta property="og:url" content="http://www.clinicamedicaarapua.com.br/"/>
+	<meta property="og:type" content="website"/>
+	<meta property="og:title" content="Clínica Médica Arapuá"/>
+	<meta property="og:description" content="Procurando uma clínica médica em Maringá? A Clínica Médica Arapuá é a melhor opção para você. Conheça agora nossa clínica médica."/>
+	<meta property="og:image" content="http://www.clinicamedicaarapua.com.br/logo.png"/>
+
+	<link rel="icon" href="favicon.ico"/>
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
+	<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-black.css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css"/>
+</head>
+
+<body>
+	<!-- Side Navigation -->
+	<nav class="w3-sidebar w3-bar-block w3-card w3-animate-left w3-center" style="display:none" id="sidebar">
+		<a href="#home" class="w3-bar-item w3-button" onclick="w3_close()">Home</a>
+		<a href="#services" class="w3-bar-item w3-button" onclick="w3_close()">Serviços</a>
+		<a href="#about" class="w3-bar-item w3-button" onclick="w3_close()">Sobre</a>
+		<a href="#doctors" class="w3-bar-item w3-button" onclick="w3_close()">Médicos</a>
+		<a href="#contact" class="w3-bar-item w3-button" onclick="w3_close()">Contato</a>
+		<button class="w3-bar-item w3-button" onclick="w3_close()">Fechar <i class="fa fa-remove"></i></button>
+	</nav>
+
+	<!-- Header -->
+	<header class="w3-container w3-theme w3-padding" id="header">
+		<i onclick="w3_open()" class="fa fa-bars w3-xlarge w3-button w3-theme"></i> 
+		<div class="w3-center">
+			<h1 class="w3-xxxlarge w3-animate-bottom">Clínica Médica Arapuá</h1>
+			<p>Estamos localizados na Zona 3, em Maringá, e estamos prontos para <br/> prover um atendimento humanizado com profissionais capacitados.</p>
+			<div class="w3-padding-32">
+				<button class="w3-btn w3-dark-grey w3-hover-light-grey" onclick="document.getElementById('modal').style.display='block'" style="font-weight:900;">MARQUE UMA CONSULTA</button>
+			</div>
+		</div>
+	</header>
+
+	<!-- Modal -->
+	<div id="modal" class="w3-modal">
+		<div class="w3-modal-content w3-card-4 w3-animate-top">
+			<header class="w3-container w3-theme-l1"> 
+				<span onclick="document.getElementById('modal').style.display='none'" class="w3-button w3-display-topright">×</span>
+				<h4>Agendamento de consulta</h4>
+			</header>
+			<div class="w3-padding">
+				<p>Você pode entrar em contato conosco através do nosso e-mail ou pelo telefone.</p>
+				<p>E-mail: clinicamedicaarapua@hotmail.com</p>
+				<p>Telefone: (44) 3225-5300</p>
+			</div>
+		</div>
+	</div>
+
+	<!-- Opening Hours -->
+	<div class="w3-container" id="opening-hours">
+		<div class="w3-center">
+			<h2>Horário de Atendimento</h2>
+		</div>
+		<div class="w3-row">
+			<div class="w3-third w3-container m2 w3-black"><p>Segunda a Sexta - 8:00 às 20:00</p></div>
+			<div class="w3-third w3-container m2 w3-dark-grey"><p>Sábado - 8:00 às 12:00</p></div>
+			<div class="w3-third w3-container m2 w3-black"><p>Domingo - Fechado</p></div>
+		</div>
+	</div>
+
+	<!-- Services -->
+	<div class="w3-container" id="services">
+		<hr/>
+		<div class="w3-center">
+			<h2>Serviços</h2>
+		</div>
+		<div class="w3-row-padding w3-center w3-margin-top">
+			<div class="w3-quarter">
+				<div class="w3-card w3-container" style="min-height:460px">
+					<h3>Procedimentos Simples</h3>
+					<br/>
+					<i class="fa fa-stethoscope w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+					<p>A realização de alguns procedimentos básicos internamente visa evitar a necessidade de transporte do paciente para outro local e agiliza o processo diagnóstico em determinados casos.</p>
+				</div>
+			</div>
+			<div class="w3-quarter">
+				<div class="w3-card w3-container" style="min-height:460px">
+					<h3>Plano de Saúde</h3>
+					<br/>
+					<i class="fa fa-ambulance w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+					<p>Atendimento para diversos planos de saúde (PAM Saúde, Sama, Santa Rita, Unimed) e pacientes do SUS.</p>
+				</div>
+			</div>
+			<div class="w3-quarter">
+				<div class="w3-card w3-container" style="min-height:460px">
+					<h3>Exames Básicos</h3>
+					<br/>
+					<i class="fa fa-user-md w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+					<p>Realização periódica de vários exames clínicos, com o objetivo de avaliar o estado geral de saúde e diagnosticar precocemente alguma doença que ainda não tenha manifestado sintomas.</p>
+				</div>
+			</div>
+			<div class="w3-quarter">
+				<div class="w3-card w3-container" style="min-height:460px">
+					<h3>Aconselhamento Médico</h3>
+					<br/>
+					<i class="fa fa-medkit w3-margin-bottom w3-text-theme" style="font-size:120px"></i>
+					<p>A ideia é promover mais comodidade, uma vez que o paciente não precisa ir à clínica caso a situação possa ser resolvida pelo telefone.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- About -->
+	<div class="w3-container" id="about">
+		<hr/>
+		<div class="w3-center">
+			<h2>Sobre nós</h2>
+			<p>Localizada em Maringá, a Clínica Médica Arapuá há mais de 20 anos trabalha com total profissionalismo e humanidade em busca do melhor atendimento possível a seus pacientes.</p>
+		</div>
+		<div class="w3-row-padding">
+			<div class="w3-half">
+				<div class="w3-card white">
+					<div class="w3-container w3-black">
+						<h3>Missão</h3>
+					</div>
+					<ul class="w3-ul w3-border-top">
+						<li>
+							<p>Promover a saúde da população visando a prevenção de doenças através de assistência médica especializada e altamente qualificada, focando na competência e excelência no atendimento.</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="w3-half">
+				<div class="w3-card white">
+					<div class="w3-container w3-black">
+						<h3>Valores</h3>
+					</div>
+					<ul class="w3-ul w3-border-top">
+						<li>
+							<p>Responsabilidade técnica através da ética, transparência, comprometimento, competência e inovação.</p>
+						</li>
+					</ul>
+					<br/>
+					<div class="w3-container w3-indigo w3-large"><span class="w3-right"></span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Doctors -->
+	<div class="w3-container" id="doctors">
+		<hr/>
+		<div class="w3-center">
+			<h2>Conheça nossos médicos</h2>
+		</div>
+		<br/>
+		<div class="w3-row w3-border w3-center">
+			<div class="w3-container w3-border">
+				<h4>Ana Maria Turkowski Noria</h4> 
+				<p>Clínico geral, generalista, psiquiatra</p>
+			</div>
+			<div class="w3-container w3-border">
+				<h4>Manoel Alvares Sobrinho</h4>
+				<p>Cirurgião geral, clínico geral, psiquiatra</p>
+			</div>
+		</div>
+		<br/>
+	</div>
+
+	<!-- Contact -->
+	<div class="w3-container" id="contact">
+		<hr/>
+		<div class="w3-center">
+			<h2>Entre em Contato</h2>
+		</div>
+		<div class="w3-center">
+			<p><i class="fa fa-2x fa-fw fa-map-marker"></i>Maringá - PR, 87013-915</p>
+			<p><i class="fa fa-2x fa-fw fa-location-arrow"></i>Rua Néo Alves Martins, 3377</p>
+			<p><i class="fa fa-2x fa-fw fa-envelope-o"></i>clinicamedicaarapua@hotmail.com</p>
+			<p><i class="fa fa-2x fa-fw fa-phone"></i>(44) 3225-5300</p>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="w3-container w3-theme-dark w3-padding-16">
+		<h3>Copyright &copy; <strong>2020</strong> Clínica Médica Arapuá. Todos os direitos reservados.</h3>
+		<p>Desenvolvido por <a href="mailto:luizamichi@gmail.com">Luiz Joaquim Aderaldo Amichi</a></p>
+		<div style="position:relative;bottom:55px;" class="w3-tooltip w3-right">
+			<span class="w3-text w3-theme-light w3-padding">Ir para o topo</span>
+			<a class="w3-text-white" href="#header"><span class="w3-xlarge">
+			<i class="fa fa-chevron-circle-up"></i></span></a>
+		</div>
+	</footer>
+
+	<!-- Script for Sidebar -->
+	<script>
+		function w3_open() {
+			var x = document.getElementById("sidebar");
+			x.style.width = "100%";
+			x.style.fontSize = "40px";
+			x.style.paddingTop = "10%";
+			x.style.display = "block";
+		}
+		function w3_close() {
+			document.getElementById("sidebar").style.display = "none";
+		}
+	</script>
+</body>
+
+</html>
